@@ -1,0 +1,40 @@
+.page, .Screen-Shot 2015-01-21 at 1.56.28 PM, .Screen-Shot 2015-01-21 at 1.57.37 PM, .Screen-Shot 2015-01-21 at 1.57.18 PM, .Screen-Shot 2015-01-21 at 1.57.13 PM, .Screen-Shot 2015-01-21 at 1.57.05 PM{
+	background: url(sprites.png) no-repeat;
+}
+
+.page{
+	background-position: -50px -50px ;
+	width: 64px;
+	height: 75px;
+}
+
+.graph 2015-01-21 at 1.56.28 PM{
+	background-position: -152px -51px ;
+	width: 98px;
+	height: 114px;
+}
+
+.person 2015-01-21 at 1.57.37 PM{
+	background-position: -403px -50px ;
+	width: 147px;
+	height: 99px;
+}
+
+.tag 2015-01-21 at 1.57.18 PM{
+	background-position: -449px -200px ;
+	width: 138px;
+	height: 122px;
+}
+
+.chat 2015-01-21 at 1.57.13 PM{
+	background-position: -301px -200px ;
+	width: 139px;
+	height: 111px;
+}
+
+.dashboard 2015-01-21 at 1.57.05 PM{
+	background-position: -101px -201px ;
+	width: 128px;
+	height: 134px;
+}
+
