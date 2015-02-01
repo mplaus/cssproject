@@ -1,17 +1,14 @@
 /*specific styles for bootstrapdemo*/
+@font-face {
+	font-family: Myriad-pro;
+	src: url(myriad-pro/MYRIADPRO-REGULAR.OTF);    
+    }
+.navbar-default .navbar-nav > li > a {
+    color: white;
 
-.gray-box{
-	border:1px solid black;
-	min-height: 200px;
-	padding: 10px;
 }
-.white-box{
-	min-height: 50px;
-	background: white;
-	border: 1px solid black;
-	background-color: #33cc66;
-	font-size: 3em;
-	color: white;
+body{
+    font-family: Myriad-pro;
 }
 #header{
 	/*border-top: 1px solid black;*/
@@ -19,37 +16,173 @@
 	margin: 0px;
 	background-color: #2292eb;
 	color: white;
-
 }
+
+#footer{
+	margin-top: 100px;
+	min-height: 50px;
+	border: 1px solid #cccccc;
+	
+}
+#drop-box{
+    float: right;
+    color: black;
+}
+.ad-container{
+    /*margin: 10px 90px 0px 90px;*/
+    background-color: #2292eb;
+}
+.announce-box{
+    color: #fea46c;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    padding-top:4px; 
+}
+
+.task-list{
+    padding: 10px;
+    color: #2292eb;
+}
+.task-list:hover{
+    padding: 10px;
+    color: #cccccc;
+}
+.input-group{
+	float: right;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.tasks-box{
+	border: 1px solid #cccccc;
+	min-height: 200px;
+	padding: 10px;
+}
+.analitics-box{
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	min-height: 200px;
+	padding: 10px;
+}
+.big-rec-box{
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	min-height: 200px;
+	padding: 10px;
+}
+big-user-box{
+	border: 1px solid #cccccc;
+	min-height: 200px;
+	padding: 10px;
+}
+.horizontal-box{
+	border: 1px solid #cccccc;
+	min-height: 200px;
+	padding: 10px;
+}
+.verticle-box{
+	min-height: 50px;
+	background: white;
+	background-color: #33cc66;
+	font-size: 3em;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	font-family: Myriad-pro;
+	padding-top: 5px;
+}
+
 .iconbar{
-	border: 1px solid black;
 	min-height: 100px;
+	background-color: #194b74;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 .container{
-	margin: 10px, 90px, 0px, 90px;
-	border: 1px solid black;
+	margin: 10px 90px 0px 90px;
+	
 	
 }
-#footer{
-	margin-top: 100px;
-	min-height: 50px;
-	border: 1px solid black;
-}
-#search-bar1{
-	float: right;
-	max-width: 100px;
-	color: black;
-}
-.tasks{
 
+.circle-text{
+    color: #cccccc;
+    font-size: 12px;
+}
+#graph-box{
+    border-right:1px solid #cccccc;
+}
+
+.headings{
+	color:#2292eb;
 }
 .settings{
 	float: right;
-	color: gray;
+	color: #cccccc;
+}
 }
 .ad-box{
 	background-color: #2292eb;
 	margin-top: 100px;
+}
+
+.user-box{
+    border: solid 1px #cccccc;
+    padding: 4px;
+    float: right;
+    margin-bottom: 10px;
+    min-width: 60px;
+}
+.circle
+{
+width:30px;
+height: 30px;
+border-radius:50%;
+font-size:16px;
+color: white;
+line-height:30px;
+text-align:center;	
+background:#33cc66;
+display: inline-block;
+margin-right: 10px;
+}
+.circle:hover
+{
+width:30px;
+height: 30px;
+border-radius:50%;
+font-size:16px;
+color: white;
+line-height:30px;
+text-align:center;	
+background:#cccccc;
+display: inline-block;
+margin-right: 10px;
+}
+.rec-list{
+    color: #cccccc;
+    max-width: 400px;
+    
+}
+.rec-box{
+    margin:20px 0px 20px 0px;
+    
+}
+}
+.small-text{
+    font-size: 10px;
+}
+.nav-content{
+    float: right;
+    color: white;
+    margin: 15px 35px 15px 0px;
 }

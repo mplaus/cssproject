@@ -1,0 +1,62 @@
+.circle-graph, .people-ad, .orang-ad, .green-ad, .right-arrow, .little-arrow, .orange-guy, .green-guy, .circle-graph2{
+	background: url(sprites3.png) no-repeat;
+	display: inline-block
+}
+
+.circle-graph{
+	background-position: -556px -16px ;
+	width: 84px;
+	height: 87px;
+}
+
+.people-ad{
+	background-color: white;
+	background-position: 0 0;
+	width: 286px;
+	height: 174px;
+}
+
+.orang-ad{
+	background-color: white;
+	background-position: 0 -173px ;
+	width: 283px;
+	height: 161px;
+}
+
+.green-ad{
+	background-color: white;
+	background-position: -298px -175px ;
+	width: 280px;
+	height: 157px;
+}
+
+.right-arrow{
+	background-position: -401px -51px ;
+	width: 25px;
+	height: 28px;
+}
+
+.little-arrow{
+	background-position: -351px -50px ;
+	width: 22px;
+	height: 30px;
+}
+
+.orange-guy{
+	background-position: -6px -373px ;
+	width: 83px;
+	height: 73px;
+}
+
+.green-guy{
+	background-position: -109px -372px ;
+	width: 92px;
+	height: 74px;
+}
+
+.circle-graph2{
+	background-position: -556px -112px ;
+	width: 84px;
+	height: 85px;
+}
+

@@ -1,0 +1,159 @@
+.graph, .page, .tag, .chat, .dashboard, .people, .dashboardb, .peopleb, .chatb, .tagb, .pageb, .graphb, .big-graph, .search-icon, .little-page, .check, .light{
+	background: url(sprites2.png) no-repeat;
+	display: inline-block;
+}
+
+.graph{
+	background-position: -299px -47px ;
+	width: 53px;
+	height: 58px;
+	margin:0px 10px 0px 10px;
+}
+.graph:hover{
+	background-position: -298px -111px ;
+	width: 53px;
+	height: 58px;
+	margin:0px 10px 0px 10px;
+	
+}
+
+.page{
+	background-position: -401px -51px ;
+	width: 52px;
+	height: 57px;
+	margin:0px 10px 0px 10px;
+}
+
+.page:hover{
+	background-position: -401px -116px ;
+	width: 49px;
+	height: 56px;
+	margin:0px 10px 0px 13px;
+}
+
+.tag{
+	background-position: -47px -46px ;
+	width: 58px;
+	height: 56px;
+	margin:0px 10px 0px 10px;
+}
+
+.tag:hover{
+	background-position: -55px -117px ;
+	width: 57px;
+	height: 57px;
+	margin:0px 11px 0px 10px;
+}
+
+.chat{
+	background-position: -54px -190px ;
+	width: 61px;
+	height: 59px;
+	margin:0px 10px 0px 10px;
+}
+
+.chat:hover{
+	background-position: -54px -257px ;
+	width: 61px;
+	height: 55px;
+	margin:0px 10px 0px 10px;
+}
+
+.dashboard{
+	background-position: -503px -51px ;
+	width: 63px;
+	height: 64px;
+	margin:0px 10px 0px 10px;
+}
+.dashboard:hover{
+	background-position: -502px -120px ;
+	width: 65px;
+	height: 65px;
+	margin:0px 10px 0px 9px;
+}
+
+.people{
+	background-position: -156px -55px ;
+	width: 60px;
+	height: 40px;
+	margin:0px 10px 12px 10px;
+}
+.people:hover{
+	background-position: -152px -106px ;
+	width: 71px;
+	height: 52px;
+	margin:0px 5px 5px 4px;
+}
+
+.dashboardb{
+	background-position: -502px -120px ;
+	width: 66px;
+	height: 65px;
+}
+
+.peopleb{
+	background-position: -152px -106px ;
+	width: 71px;
+	height: 52px;
+}
+
+.chatb{
+	background-position: -54px -257px ;
+	width: 61px;
+	height: 55px;
+}
+
+.tagb{
+	background-position: -55px -117px ;
+	width: 57px;
+	height: 57px;
+}
+
+.pageb{
+	background-position: -401px -116px ;
+	width: 49px;
+	height: 56px;
+}
+
+.graphb{
+	background-position: -298px -111px ;
+	width: 53px;
+	height: 58px;
+}
+
+.big-graph{
+	background-position: -151px -198px ;
+	width: 405px;
+	height: 194px;
+}
+
+.search-icon{
+	background-position: -54px -319px ;
+	width: 33px;
+	height: 23px;
+	float: right;
+	background-color: white;
+	margin-top: 16px;
+}
+
+.little-page{
+	background-position: -108px -316px ;
+	width: 27px;
+	height: 32px;
+	float: left;
+}
+
+.check{
+	background-position: -56px -358px ;
+	width: 29px;
+	height: 31px;
+	float: left;
+}
+
+.light{
+	background-position: -110px -357px ;
+	width: 24px;
+	height: 30px;
+	float: left;
+}
+
