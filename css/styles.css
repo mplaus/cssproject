@@ -37,7 +37,8 @@ body{
     border-top: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
     border-left: 1px solid #cccccc;
-    padding-top:4px; 
+    padding-top:4px;
+    min-width: 300px;
 }
 
 .task-list{
@@ -57,7 +58,9 @@ body{
 .tasks-box{
 	border: 1px solid #cccccc;
 	min-height: 200px;
-	padding: 10px;
+	padding: 0px;
+	max-width: 100%;
+	min-width: 300px;
 }
 .analitics-box{
 	border-top: 1px solid #cccccc;
@@ -65,16 +68,24 @@ body{
 	border-bottom: 1px solid #cccccc;
 	min-height: 200px;
 	padding: 10px;
+	min-width: 300px;
+}
+.big-graph-box{
+    max-width: 100%;
+    min-width: 200px;
 }
 .big-rec-box{
 	border-bottom: 1px solid #cccccc;
 	border-left: 1px solid #cccccc;
 	border-right: 1px solid #cccccc;
-	min-height: 200px;
-	padding: 10px;
+	min-height: 500px;
+	padding: 0px;
+	
 }
-big-user-box{
-	border: 1px solid #cccccc;
+.big-user-box{
+	border-right:  1px solid #cccccc;
+	border-bottom:  1px solid #cccccc;
+	border-top: 1px solid #cccccc;
 	min-height: 200px;
 	padding: 10px;
 }
@@ -93,12 +104,34 @@ big-user-box{
 	margin-bottom: 20px;
 	border-radius: 5px;
 	font-family: Myriad-pro;
-	padding-top: 5px;
+	padding: 20px;
 }
+.search-group{
+    max-width: 100%;
+    min-width: 300px;
+}
+.green-group{
+    float: left;
+    margin-left: 0px;
+}
+.green-group-box{
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
 
+}
+.orange-group{
+    float: right;
+    margin-left: 10px;
+}
+.orange-group-box{
+    border: solid 1px black;
+}
 .iconbar{
 	min-height: 100px;
 	background-color: #194b74;
+	 background-image: url("app-stripe.png");
+	background-repeat: repeat-5;
 }
 
 .icons{
@@ -124,6 +157,7 @@ big-user-box{
 
 .headings{
 	color:#2292eb;
+	margin-left: 10px;
 }
 .settings{
 	float: right;
@@ -132,7 +166,6 @@ big-user-box{
 }
 .ad-box{
 	background-color: #2292eb;
-	margin-top: 100px;
 }
 
 .user-box{
@@ -141,6 +174,9 @@ big-user-box{
     float: right;
     margin-bottom: 10px;
     min-width: 60px;
+}
+.user-box2{
+    border-bottom: solid 1px #cccccc;
 }
 .circle
 {

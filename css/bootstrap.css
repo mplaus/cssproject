@@ -357,6 +357,7 @@ th {
 }
 .glyphicon-cog:before {
   content: "\e019";
+  margin-right: 10px;
   
 }
 h3 > span > .glyphicon-cog:before {

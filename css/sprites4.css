@@ -1,0 +1,48 @@
+.blue-thing2, .blue-thing1, .green-graph, .horizontal-line, .dropdown-arrow, .orange-graph, .app-stripe{
+	background: url(sprites4.png) no-repeat;
+	display: inline-block;
+}
+
+.blue-thing2{
+	background-position: -95px -52px ;
+	width: 243px;
+	height: 53px;
+}
+
+.blue-thing1{
+	background-position: -377px -49px ;
+	width: 244px;
+	height: 55px;
+}
+
+.green-graph{
+	background-position: -54px -131px ;
+	width: 194px;
+	height: 82px;
+	margin-left:  5px;
+}
+
+.horizontal-line{
+	background-position: -51px -263px ;
+	width: 346px;
+	height: 11px;
+}
+
+.dropdown-arrow{
+	background-position: -141px -344px ;
+	width: 29px;
+	height: 29px;
+}
+
+.orange-graph{
+	background-position: -294px -138px ;
+	width: 194px;
+	height: 82px;
+}
+
+.app-stripe{
+	background-position: -567px -202px ;
+	width: 10px;
+	height: 111px;
+}
+

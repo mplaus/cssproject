@@ -1,0 +1,92 @@
+.ad-head, .orange-ad2, .people-ad2, .green-ad2, .orange-box, .right-thing, .left-thing, .green-box, .green-body, .green-head{
+	background: url(sprites5.png) no-repeat;
+	display: block;
+}
+
+.ad-head{
+	background-position: -14px -9px ;
+	width: 285px;
+	height: 12px;
+	margin-left: 290px;
+}
+
+.orange-ad2{
+	background-position: -18px -33px ;
+	width: 281px;
+	height: 161px;
+	background-color: white;
+	display: inline-block;
+}
+
+.people-ad2{
+	background-position: -347px -17px ;
+	width: 283px;
+	height: 161px;
+	background-color:  white;
+	display: inline-block;
+}
+
+.green-ad2{
+	background-position: -3px -207px ;
+	width: 284px;
+	height: 162px;
+	background-color: white;
+	display: inline-block;
+	
+}
+
+.orange-box{
+	background-position: -354px -214px ;
+	width: 214px;
+	height: 51px;
+	
+}
+
+.right-thing{
+	background-position: -416px -367px ;
+	width: 15px;
+	height: 44px;
+	float: right;
+	margin-top: 70px;
+	
+}
+.right-thing1{
+	margin-right: 69px;
+}
+
+.right-thing2{
+	
+}
+
+.left-thing{
+	background-position: -398px -382px ;
+	width: 16px;
+	height: 44px;
+	float: left;
+	;
+}
+.left-thing1{
+	margin-top: 70px;
+}
+.left-thing2{
+	margin-left: 40px
+}
+.green-box{
+	background-position: -35px -363px ;
+	width: 212px;
+	height: 51px;
+}
+
+.green-body{
+	background-position: -354px -281px ;
+	width: 211px;
+	height: 41px;
+}
+
+.green-head{
+	background-position: -257px -436px ;
+	width: 211px;
+	height: 26px;
+	margin-left: 2px;
+}
+
