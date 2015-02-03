@@ -7,7 +7,7 @@
 	background-position: -14px -9px ;
 	width: 285px;
 	height: 12px;
-	margin-left: 290px;
+	/*margin-left: 315px;*/
 }
 
 .orange-ad2{
@@ -47,15 +47,16 @@
 	width: 15px;
 	height: 44px;
 	float: right;
-	margin-top: 70px;
 	
 }
 .right-thing1{
-	margin-right: 69px;
+	
 }
 
 .right-thing2{
-	
+	margin-right: 139px;
+	margin-top: 0px;
+	max-width: 30px;
 }
 
 .left-thing{
@@ -69,7 +70,8 @@
 	margin-top: 70px;
 }
 .left-thing2{
-	margin-left: 40px
+	margin-left: 40px;
+	margin-top:70px;
 }
 .green-box{
 	background-position: -35px -363px ;

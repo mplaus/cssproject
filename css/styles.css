@@ -72,7 +72,7 @@ body{
 }
 .big-graph-box{
     max-width: 100%;
-    min-width: 200px;
+    min-width: 300px;
 }
 .big-rec-box{
 	border-bottom: 1px solid #cccccc;
@@ -87,7 +87,9 @@ body{
 	border-bottom:  1px solid #cccccc;
 	border-top: 1px solid #cccccc;
 	min-height: 200px;
-	padding: 10px;
+	padding: 20px 30px 20px 60px;
+	max-width: 100%;
+	min-width: 300px;
 }
 .horizontal-box{
 	border: 1px solid #cccccc;
@@ -104,7 +106,9 @@ body{
 	margin-bottom: 20px;
 	border-radius: 5px;
 	font-family: Myriad-pro;
-	padding: 20px;
+	padding: 0px 60px 0px 60px ;
+	max-width: 100%;
+	min-width: 300px;
 }
 .search-group{
     max-width: 100%;
@@ -118,6 +122,7 @@ body{
     border: solid 1px #cccccc;
     border-radius: 5px;
     box-shadow: 0px 0px 5px #888888;
+    max-width: 215px;
 
 }
 .orange-group{
@@ -125,7 +130,10 @@ body{
     margin-left: 10px;
 }
 .orange-group-box{
-    border: solid 1px black;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888888;
+    max-width: 215px;
 }
 .iconbar{
 	min-height: 100px;
@@ -141,11 +149,11 @@ body{
 }
 
 
-.container{
+/*.container{
 	margin: 10px 90px 0px 90px;
 	
 	
-}
+}*/
 
 .circle-text{
     color: #cccccc;
@@ -163,9 +171,10 @@ body{
 	float: right;
 	color: #cccccc;
 }
-}
 .ad-box{
 	background-color: #2292eb;
+	border: solid 1px #cccccc;
+	padding: 20px;
 }
 
 .user-box{
@@ -213,6 +222,12 @@ margin-right: 10px;
     margin:20px 0px 20px 0px;
     
 }
+.did-box{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding: 20px 0px 20px 0px;
 }
 .small-text{
     font-size: 10px;

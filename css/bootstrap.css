@@ -357,7 +357,7 @@ th {
 }
 .glyphicon-cog:before {
   content: "\e019";
-  margin-right: 10px;
+  margin-right: 10px; 
   
 }
 h3 > span > .glyphicon-cog:before {
@@ -688,9 +688,13 @@ h3 > span > .glyphicon-cog:before {
 }
 .glyphicon-circle-arrow-right:before {
   content: "\e131";
+  color:orange;
+  float: right;
 }
 .glyphicon-circle-arrow-left:before {
   content: "\e132";
+  color:orange;
+  float: right;
 }
 .glyphicon-circle-arrow-up:before {
   content: "\e133";
